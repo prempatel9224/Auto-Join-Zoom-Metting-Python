@@ -2,7 +2,7 @@ import schedule
 import time
 from datetime import datetime
 import webbrowser
-
+#Enter Time In 24 Hour Format
 tr = "15:15"#Enter The Time At You Want To Enter Metting
 now = datetime.now().strftime("%H:%M")
 def classe():
